@@ -8,7 +8,7 @@ def start_client(port):
             message = input("> ")
             client_socket.send(message.encode())
             response = client_socket.recv(1024).decode()
-            print(response)
+            print(response) 
 
 if __name__ == "__main__":
-    start_client(8080)
+    start_client(8080) //başla
